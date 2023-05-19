@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0em 0 .3em lightgray;
+    width: 100%;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+p{
+    color: rgb(130, 127, 127);
+    margin-bottom: 10px;
+}
+h1{
+    color: #2c99ff;
+}
+h3{
+    color: #2c99ff;
+    margin-bottom: 5px;
+}
+.contact{
+    background-color: #2c99ff;
+    color: white;
+    height: 5vh;
+    width: 8%;
+    border-radius: 20px;
+    border: none;
+}
+.search{
+    background-color: #2c99ff;
+    color: white;
+    height: 6vh;
+    width: 13%;
+    border-radius: 20px;
+    border: none;   
+}
+input{
+    border: none;
+    background-color: transparent;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    background-image: none;
+}
+.heading{
+    background-color: aliceblue;
+    border: #2c99ff solid 1px;
+    border-radius: 20px;
+    width: 60%;
+    height: 7.1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3px 0px 15px;
+}
+.over-all{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin: 80px 100px 100px 100px;
+}
+footer{
+    background-color: #2c85d8;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.footer-details p, 
+.footer-details i, 
+.footer-details h3,
+footer p,
+.socials .newsletter input{
+    color: white !important;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+}
+.newsletter{
+    display: flex;
+    width: 100%;
+}
+.newsletter input{
+    width: 90%;
+    margin: 8px 0px;
+    padding-left: 4px;
+}
+.newsletter i{
+    margin: 8px 0px;
+}
+.social-icons i{
+    margin: 10px 10px 0px ;
+}
+.horizontal{
+    width: 100%;
+    background-color: white;
+    height: 2px;
+}
+.horizon{
+    width: 85%;
+    background-color: white;
+    height: 2px;
+}
+.social-icons{
+    display: flex;
+    width: 100%;   
+}
+.headquarters{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.links{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.socials{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Page 2 */
+.container{
+    display: flex;
+    width:70%;
+    height: 20vh;    
+    box-shadow: 0em 0 .3em lightgray;
+    margin-bottom: 15px;
+}
+img{
+    width: 100%;
+    height: 20vh;
+}
+.content-div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.master-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title{
+    background-color: #2c85d8;
+    opacity: 0.8;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.title h1{
+    color: white;
+}
+
+/* Page 3 */
+.author-image img{
+    width: 100%;
+    height: 52vh;
+    margin: 4px 4px 0px 4px; 
+}
+.meet-the-author{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c99ff;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.author-details p{
+    color: white !important;
+}
+.author-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    align-items: flex-start;
+}
+.author-details button{
+    width: 15%;
+    height: 5vh;
+    background-color: transparent;
+    color: white !important;
+    border: white 2px solid;
+}
+.article-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
